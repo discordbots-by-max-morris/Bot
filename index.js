@@ -94,4 +94,4 @@ client.on('message', function(message){
 
   
 
-client.login("NTI4MDA1OTM3OTgyNzM0Mzc4.D3oAbg.F1xtouFPh8MVSbiCkXlRYaaO82A")
+client.login(process.env.BOT_TOKEN)
