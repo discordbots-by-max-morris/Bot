@@ -5,9 +5,9 @@
     "node": "10.15.3",
     "npm": "6.9.0"
   }, 
-  "scripts": {
-    "start": "node src/main.js",
-    "test": "gulp"
+ "scripts": {
+  "start": "node src/index.js",
+  "build": "webpack" // This command will automatically run on deployment
   },
   "license": "MIT",
   "devDependencies": {
