@@ -2,8 +2,8 @@
   "name": "bot",
   "version": "1.0.0",
     "engines": {
-    "node": "6.9.2",
-    "npm": "3.10.9"
+    "node": "10.15.3",
+    "npm": "6.9.0"
   }, 
   "scripts": {
     "start": "node src/main.js",
