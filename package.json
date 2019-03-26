@@ -36,6 +36,7 @@
     "morse-code": "^0.1.0",
     "morse-node": "^0.1.1",
     "ms": "^2.1.1",
+    "node-gyp": "^3.8.0",
     "node-superfetch": "^0.1.9",
     "opusscript": "0.0.6",
     "os": "^0.1.1",
