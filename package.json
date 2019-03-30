@@ -1,21 +1,8 @@
 {
-  "name": "bot",
+  "name": "max-s-normale-bot-new-master",
   "version": "1.0.0",
-    "engines": {
-    "node": "10.15.3",
-    "npm": "6.9.0"
-  }, 
- "scripts": {
-  "start": "node src/index.js",
-  "build": "webpack"
-  },
-  "license": "MIT",
-  "devDependencies": {
-    "chai": "^2.2.0",
-    "gulp": "^3.8.11",
-    "gulp-mocha": "^2.0.1",
-    "mocha": "^2.2.4"
-  },
+  "description": "",
+  "main": "index.js",
   "dependencies": {
     "base": "^3.0.0",
     "bath": "^2.1.1",
@@ -27,25 +14,30 @@
     "dotenv": "^7.0.0",
     "ffmpeg-binaries": "^4.0.0",
     "figlet": "^1.2.1",
-    "fs": "0.0.1-security",
+    "fs": "^0.0.1-security",
     "gm": "^1.23.1",
     "image-to-ascii": "^3.0.12",
     "lwip2": "^1.0.14",
     "moment": "^2.24.0",
     "moment-duration-format": "^2.2.2",
-    "morse-code": "^0.1.0",
     "morse-node": "^0.1.1",
     "ms": "^2.1.1",
-    "node-gyp": "^3.8.0",
     "node-superfetch": "^0.1.9",
-    "opusscript": "0.0.6",
+    "opusscript": "^0.0.6",
     "os": "^0.1.1",
     "path": "^0.12.7",
+    "rebuild": "^0.1.2",
     "request": "^2.88.0",
     "request-promise": "^4.2.4",
     "sherlock": "^1.1.0",
     "superagent": "^4.1.0",
     "twit": "^2.2.11",
     "ytdl-core": "^0.29.1"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }
